@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zerolifestyle.co</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navBar">
+    <div class="logo">
+    <img src="https://zerolifestyle.co/cdn/shop/files/logo.png?v=1676901766&width=500" alt="logo">
+  </div>
+  <div>
+    <ul class="pages">
+      <li>Home</li>
+      <li>Smart Watches</li>
+      <li>Earbuds</li>
+      <li>Support</li>
+    </ul>
+  </div>
+    <div class="icons">
+    <i class="fa-solid fa-user"></i>
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-cart-shopping"></i>
+  </div>
+  </div>
+  <!-- swipper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/quantum_banner_res_updated.webp?v=1719584430" alt=""></div>
+      <div class="swiper-slide"><img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Carbon_desktop_banner.webp?v=1720191388" alt=""></div>
+      <div class="swiper-slide"><img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Main-Desktop.jpg?v=1721658588" alt=""></div>
+      <div class="swiper-slide"><img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Royale_Banner.webp?v=17220981141" alt=""></div>
+      <div class="swiper-slide"><img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Vouge_Banner.webp?v=17220981131" alt=""></div>
+      <div class="swiper-slide"><img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Asim_Banner.webp?v=1722369053" alt=""></div>
+    </div>
+  </div>
+ <!--AirPods Section  -->
+  <div class="zbuds"> 
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
