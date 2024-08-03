@@ -1696,6 +1696,74 @@ font-family: sans-serif;
   font-size: 30px;
   margin-bottom: 14px;
 }
+.storiesDiv{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.storiesDiv .Div1{
+ width: 18%;
+ margin-left: 20px;
+}
+.Div1 img{
+  width: 95%;
+  height: 27vh;
+  border-radius: 11px;
+  margin-bottom: 16px;
+}
+.Div1 h2{
+  font-weight: 400;
+}
+.storiesDiv .Div2{
+  width: 18%;
+ }
+ .Div2 img{
+   width: 95%;
+   height: 27vh;
+   border-radius: 11px;
+   margin-bottom: 16px;
+ }
+ .Div2 h2{
+   font-weight: 400;
+ }
+ .storiesDiv .Div3{
+  width: 18%;
+ }
+ .Div3 img{
+   width: 95%;
+   height: 27vh;
+   border-radius: 11px;
+   margin-bottom: 16px;
+ }
+ .Div2 h3{
+   font-weight: 400;
+ }
+ .storiesDiv .Div4{
+  width: 18%;
+ }
+ .Div4 img{
+   width: 95%;
+   height: 27vh;
+   border-radius: 11px;
+   margin-bottom: 16px;
+ }
+ .Div4 h3{
+   font-weight: 400;
+ }
+ .storiesDiv .Div5{
+  width: 18%;
+ }
+ .Div5 img{
+   width: 95%;
+   height: 27vh;
+   border-radius: 11px;
+   margin-bottom: 16px;
+ }
+ .Div5 h3{
+   font-weight: 400;
+ }
 
 
 
