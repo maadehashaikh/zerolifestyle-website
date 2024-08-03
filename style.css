@@ -1532,10 +1532,170 @@ font-family: sans-serif;
   margin-bottom: 30px; 
 }
 .warrantySec{
-  width: 85%;
-  background-color: #ff1446;
-  height: 14vh;
+  width: 90%;
+  border: 1px solid black;
+  height: 16vh;
   margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 65px;
+  border-radius: 10px;
 }
+.warranty{
+  width: 20%;
+  position: relative;
+  margin-left: 20px;
+}
+.warranty img{
+  filter: brightness(0);
+  display: inline;
+}
+.warranty p{
+  position: absolute;
+  font-size: 19px;
+  display: inline;
+  top: 15px;
+  margin-left: 14px;
+  font-family: monospace;
+}
+.replacemenet{
+  width: 22%;
+  position: relative;
+}
+.replacemenet img{
+  filter: brightness(0);
+  display: inline;  
+}
+.replacemenet p{
+  position: absolute;
+  font-size: 19px;
+  display: inline;
+  top: 15px;
+  margin-left: 14px;
+  font-family: monospace;
+}
+.shipping{
+  width: 18%;
+  position: relative;
+  margin-left: 10px;
+}
+.shipping img{
+  filter: brightness(0);
+  display: inline;  
+}
+.shipping p{
+  position: absolute;
+  font-size: 19px;
+  display: inline;
+  top: 17.5px;
+  margin-left: 14px;
+  font-family: monospace;
+}
+.checkout{
+  width: 20%;
+  position: relative;
+  margin-right: 40px;
+}
+.checkout img{
+  filter: brightness(0);
+  display: inline;  
+}
+.checkout p{
+  position: absolute;
+  font-size: 19px;
+  display: inline;
+  top: 17.5px;
+  margin-left: 14px;
+  font-family: monospace;
+}
+.lifeStyleDiv{
+  width: 100%;
+  height: 80vh;
+ margin-top: 30px;
+}
+.lifeStyleDiv h1{
+ margin-left: 35%;
+ display: inline;
+ font-size: 35px;
+}
+.lifeStyleDiv .imgs{
+  width: 100%;
+  height: 60vh;
+  margin-top: 30px;
+  display: flex;
+  align-items:center;
+  justify-content:space-evenly;
+}
+.lifeStyleDiv .profesional{
+  width: 23%;
+  height: 58vh;
+  background-image: url(https://cdn.shopify.com/s/files/1/0722/8106/3702/files/professional.png?v=1709805282);
+  background-size: cover;
+  background-position: center;
+}
+.lifeStyleDiv .fitness{
+  width: 23%;
+  height: 58vh;
+  background-image: url(https://cdn.shopify.com/s/files/1/0722/8106/3702/files/fitness.png?v=1709805282);
+  background-size: cover;
+  background-position: center;
+}
+.lifeStyleDiv .fashion{
+  background-image: url(https://cdn.shopify.com/s/files/1/0722/8106/3702/files/fashion.png?v=1709805282);
+  width: 23%;
+  height: 58vh;
+  background-size: cover;
+  background-position: center;
+}
+.lifeStyleDiv .adventure{
+  background-image: url(https://cdn.shopify.com/s/files/1/0722/8106/3702/files/adventure.png?v=1709805282);
+  width: 23%;
+  height: 58vh;
+  background-size: cover;
+  background-position: center;
+}
+.Bigimg-Div{
+  max-width: 100%;
+  height: 120vh;
+  background-image: url(https://cdn.shopify.com/s/files/1/0722/8106/3702/files/FAWAD_KEYVISUALS_2.0.webp?v=1710833635);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.offerOfDay{
+  margin-top: 20px;
+}
+.offerOfDay h2{
+  margin-left: 20px;
+}
+.offer{
+  width: 100%;
+  height: 100vh;
+  margin-top: 10px;
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.Bigimg-Div{
+  max-width: 100%;
+  height: 80vh;
+  background-image: url(https://cdn.shopify.com/s/files/1/0722/8106/3702/files/App-banner-website_1.webp?v=1719476855);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.stories{
+  width: 100%;
+  height: 110vh;
+  /* background-color: #747aff; */
+  margin-top: 30px;
+}
+.stories h1{
+  margin-left: 38%;
+  display: inline;
+  font-size: 30px;
+  margin-bottom: 14px;
+}
+
 
 
