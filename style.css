@@ -1686,8 +1686,7 @@ font-family: sans-serif;
 }
 .stories{
   width: 100%;
-  height: 110vh;
-  /* background-color: #747aff; */
+  height: 70vh;
   margin-top: 30px;
 }
 .stories h1{
@@ -1719,51 +1718,67 @@ font-family: sans-serif;
 .storiesDiv .Div2{
   width: 18%;
  }
- .Div2 img{
+.Div2 img{
    width: 95%;
    height: 27vh;
    border-radius: 11px;
    margin-bottom: 16px;
  }
- .Div2 h2{
+.Div2 h2{
    font-weight: 400;
  }
- .storiesDiv .Div3{
+.storiesDiv .Div3{
   width: 18%;
  }
- .Div3 img{
+.Div3 img{
    width: 95%;
    height: 27vh;
    border-radius: 11px;
    margin-bottom: 16px;
  }
- .Div2 h3{
+.Div2 h3{
    font-weight: 400;
  }
- .storiesDiv .Div4{
+.storiesDiv .Div4{
   width: 18%;
  }
- .Div4 img{
+.Div4 img{
    width: 95%;
    height: 27vh;
    border-radius: 11px;
    margin-bottom: 16px;
  }
- .Div4 h3{
+.Div4 h3{
    font-weight: 400;
  }
- .storiesDiv .Div5{
+.storiesDiv .Div5{
   width: 18%;
  }
- .Div5 img{
+.Div5 img{
    width: 95%;
    height: 27vh;
    border-radius: 11px;
    margin-bottom: 16px;
  }
- .Div5 h3{
+.Div5 h3{
    font-weight: 400;
  }
-
+.butn{
+ margin-top: 30px;
+ padding: 13px 65px ;
+ margin-left: 40%;
+ border-radius: 40px;
+ color: white;
+ background-color: #000;
+ font-size: 16px;
+ border: 0;
+}
+.description{
+  width: 100%;
+  height: 100vh;
+}
+.description h3 , p {
+  width: 98%;
+}
 
 
